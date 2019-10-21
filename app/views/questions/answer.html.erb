@@ -1,0 +1,18 @@
+<div class="container mx-auto mt-5">
+
+  <h1 class ="text-center">Stupid Coaching</h1>
+
+  <div class= "bg-ligth ml-5">
+    <%= @question %>
+    <p class="strong ml-3">- You</p>
+  </div>
+  <div class= "bg-warning" >
+    <div class="ml-5">
+
+    <%= @answer  %>
+    </div>
+    <p class="ml-3">-  Coach answer</p>
+  </div>
+  <%= link_to 'Aks another question', ask_path  %>
+
+</div>
